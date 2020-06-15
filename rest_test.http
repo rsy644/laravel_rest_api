@@ -1,0 +1,27 @@
+### ALL AUTHORS
+
+GET http://127.0.0.1:8000/api/authors
+
+### SINGLE AUTHORS
+
+GET http://127.0.0.1:8000/api/authors/3
+
+### ALL BOOKS
+
+GET http://127.0.0.1:8000/api/books
+
+### First POST request
+
+http://127.0.0.1:8000/api/authors/
+
+### First Author PUT request
+
+http://127.0.0.1:8000/api/authors/1?_method=PUT 
+
+### First Author DELETE request
+
+http://127.0.0.1:8000/api/authors/2
+
+### Get all books
+
+http://127.0.0.1:8000/api/books
